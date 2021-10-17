@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ce90fa-efe1-42a2-b21d-88ddedf92855" name="Default Changelist" comment="" />
+    <list default="true" id="d9ce90fa-efe1-42a2-b21d-88ddedf92855" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/algorithms/初级算法20211016/数组/Solution04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/algorithms/初级算法20211016/数组/Solution05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/algorithms/初级算法20211016/数组/Solution06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetbook20211016/com/stewart/algorithms/初级算法20211016/数组/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetbook20211016/com/stewart/algorithms/初级算法20211016/数组/Solution03.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,6 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1zZTTTF93aw0xeEvMcfVjUXSXX7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,20 +64,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Solution03">
-    <configuration name="Solution01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.algorithms.初级算法20211016.数组.Solution01" />
-      <module name="leetbook20211016" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stewart.algorithms.初级算法20211016.数组.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution06">
     <configuration name="Solution02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stewart.algorithms.初级算法20211016.数组.Solution02" />
       <module name="leetbook20211016" />
@@ -93,11 +91,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.algorithms.初级算法20211016.数组.Solution04" />
+      <module name="leetbook20211016" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.algorithms.初级算法20211016.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.algorithms.初级算法20211016.数组.Solution05" />
+      <module name="leetbook20211016" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.algorithms.初级算法20211016.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.algorithms.初级算法20211016.数组.Solution06" />
+      <module name="leetbook20211016" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.algorithms.初级算法20211016.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution06" />
+        <item itemvalue="Application.Solution05" />
+        <item itemvalue="Application.Solution04" />
         <item itemvalue="Application.Solution03" />
         <item itemvalue="Application.Solution02" />
-        <item itemvalue="Application.Solution01" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +152,7 @@
       <updated>1634354617842</updated>
       <workItem from="1634354620903" duration="770000" />
       <workItem from="1634366467907" duration="16482000" />
+      <workItem from="1634433686689" duration="7999000" />
     </task>
     <servers />
   </component>
@@ -120,22 +160,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1634391740474">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1634439966963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634391740474" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1634391740473">
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634439966963" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1634439966962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634391740473" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1634391740473">
+    <state width="1877" height="242" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634439966962" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1634439966962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634391740473" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1634391740473">
+    <state width="1877" height="242" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634439966962" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1634439966963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634391740473" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634439966963" />
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1634438623145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634438623145" />
+    <state width="1877" height="325" key="GridCell.Tab.1.center" timestamp="1634438623145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634438623145" />
+    <state width="1877" height="325" key="GridCell.Tab.1.left" timestamp="1634438623144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634438623144" />
+    <state width="1877" height="325" key="GridCell.Tab.1.right" timestamp="1634438623145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634438623145" />
+    <state x="508" y="174" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1634437644663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="174" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1634437644663" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1634367029127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
