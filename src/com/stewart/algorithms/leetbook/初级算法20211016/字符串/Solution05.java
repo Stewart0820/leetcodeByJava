@@ -3,6 +3,7 @@ package com.stewart.algorithms.leetbook.初级算法20211016.字符串;
 /**
  * @author Stewart
  * @create 2021/10/20
+ * 验证回文串
  */
 public class Solution05 {
     public static boolean isPalindrome(String s) {
