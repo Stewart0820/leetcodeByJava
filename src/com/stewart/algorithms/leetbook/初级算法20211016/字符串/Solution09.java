@@ -6,29 +6,30 @@ package com.stewart.algorithms.leetbook.初级算法20211016.字符串;
  */
 public class Solution09 {
     public static String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0){
-            return "";
-        }
-        System.out.println("??");
-        String s = strs[0];
-        int flag = 0;
-        for (int j = 0; j < s.length(); j++) {
-            char c = s.charAt(j);
-            String s1 = String.valueOf(c);
-            for (int k = 1; k < strs.length;k++){
-                if(strs[k].indexOf(s1)==-1){
-                    break;
-                }
-                flag++;
+        // 找出最小长度的的字符串
+        int minLen = Integer.MAX_VALUE;
+        String minStr = "";
+        for (String str : strs) {
+            if (minLen > str.length()) {
+                minLen = str.length();
+                minStr = str;
             }
         }
-        String res = "";
-        for (int i = 0; i < (flag-1)/strs.length-1; i++) {
-            System.out.println(s.charAt(i));
-             res = res+s.charAt(i)+"";
+
+        for (String str : strs) {
+            while (minLen > 0) {
+                // 是否是共同前缀
+                boolean start = str.startsWith(minStr.substring(0, minLen));
+                if (start) {
+                    break;
+                } else {
+                    minLen--;
+                }
+            }
         }
-        System.out.println(res);
-        return res;
+        return minStr.substring(0, minLen);
+
+
     }
 
     public static void main(String[] args) {

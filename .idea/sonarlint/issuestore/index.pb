@@ -25,3 +25,9 @@ Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution04.j
 Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution05.java,6\c\6ca07b27e77148e93ac1b78e17b67da2613faa57
 �
 Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution06.java,3\3\33aa57d33d46b4699d581c714d654d07502cb84a
+�
+Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution08.java,1\3\137bd32df20f317c5d8900a5d9247c04ec03860e
+�
+Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution07.java,e\6\e672beb3a0245fa53b599f130bfdba6c706b04c6
+�
+Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution09.java,5\1\51e13d441d024221037a01a5d4ebc954c7f5a4dc
