@@ -31,3 +31,21 @@ Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution08.j
 Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution07.java,e\6\e672beb3a0245fa53b599f130bfdba6c706b04c6
 �
 Rsrc/com/stewart/algorithms/leetbook/初级算法20211016/字符串/Solution09.java,5\1\51e13d441d024221037a01a5d4ebc954c7f5a4dc
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution04.java,e\0\e0fea4d988b2581f3a70d0835f95208c4155b471
+~
+Nsrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/demo/text.java,1\4\14f8b7c35c73ceddb8511684815b6e67258b5bd8
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution03.java,c\b\cb80fb53188875db355fb00b975c769f4be181c8
+�
+Psrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/demo/MyLink.java,e\9\e928fd2890e70a816d5f5da2f9fbdb8f623de323
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution05.java,4\0\40a0a1863e54487314f55b4d57229ed1ec80aee3
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution02.java,7\6\76db0180c99c2a3f90a35ba95b07be6ac1c60b4c
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution06.java,2\4\24714c0c25e1467dd83fa4fd389dc96093f55a7a
+
+Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution01.java,3\c\3c2c18eb31265c5436ec92ffcb84130230ac9890
+|
+Lsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/Solution01.java,8\b\8b0d645a4509d9d98360b12c3fa69977861e31b7

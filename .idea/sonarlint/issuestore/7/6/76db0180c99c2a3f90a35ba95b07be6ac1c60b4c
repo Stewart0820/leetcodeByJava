@@ -1,0 +1,9 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ùšÊ‹Ë/
+d
+java:S2259"BA "NullPointerException" could be thrown; "head" is nullable here.(”†Õîùÿÿÿÿ8ĞãÑ‹Ë/
+c
+java:S2259"AA "NullPointerException" could be thrown; "pre" is nullable here.(¨Ÿ‰Íúÿÿÿÿ8ãĞÙ‹Ë/
+^
+java:S2259"AA "NullPointerException" could be thrown; "pre" is nullable here.(«¨ğÆ8ƒÓÛ‹Ë/
