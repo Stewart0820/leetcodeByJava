@@ -49,3 +49,11 @@ Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution06.java
 Osrc/com/stewart/algorithms/leetbook/初级算法20211016/链表/Solution01.java,3\c\3c2c18eb31265c5436ec92ffcb84130230ac9890
 |
 Lsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/Solution01.java,8\b\8b0d645a4509d9d98360b12c3fa69977861e31b7
+|
+Lsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/Solution02.java,0\c\0c90d342a5e46e73a99b47a5c8e04e499995fa2d
+|
+Lsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/Solution03.java,e\8\e8ff896e251e20ae2ecefdfe9a4e776483317593
+z
+Jsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/TreeNode.java,e\3\e3a31e54b946348f0512da4e610de9b0f05dc9ac
+|
+Lsrc/com/stewart/algorithms/leetbook/初级算法20211016/树/Solution04.java,9\0\90e454b6e3233a8ed534160c231bf0fd84f9a3a4
