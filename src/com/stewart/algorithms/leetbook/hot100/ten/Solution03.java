@@ -7,8 +7,9 @@ import java.util.Set;
 /**
  * @author Stewart
  * @create 2021/10/26
+ * 无重复字符的最长子串
  */
-public class Solutition03 {
+public class Solution03 {
     public static int lengthOfLongestSubstring(String s) {
 //        if(s.length()==0){
 //            return 0;

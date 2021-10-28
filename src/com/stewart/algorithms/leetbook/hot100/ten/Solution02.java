@@ -5,8 +5,9 @@ import org.w3c.dom.NodeList;
 /**
  * @author Stewart
  * @create 2021/10/26
+ * 两数相加
  */
-public class Solutition02 {
+public class Solution02 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode pre = new ListNode(0);
         ListNode cur = pre;
