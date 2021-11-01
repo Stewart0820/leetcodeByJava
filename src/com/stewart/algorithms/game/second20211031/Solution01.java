@@ -3,6 +3,7 @@ package com.stewart.algorithms.game.second20211031;
 /**
  * @author Stewart
  * @create 2021/10/31
+ * 值相等的最小索引
  */
 public class Solution01 {
     public static int smallestEqual(int[] nums) {

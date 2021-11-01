@@ -7,6 +7,7 @@ import java.util.Collections;
 /**
  * @author Stewart
  * @create 2021/10/31
+ * 找出临界点之间的最小和最大距离
  */
 public class Solution02 {
     public static int[] nodesBetweenCriticalPoints(ListNode head) {

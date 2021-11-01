@@ -7,21 +7,29 @@ package com.stewart.algorithms.leetbook.hot100.ten;
  */
 public class Solution05 {
     public static String longestPalindrome(String s) {
-        char[] chars = s.toCharArray();
-        int length = chars.length;
-        int i = 0;
-        int j = length-1;
-        int res = 0;
-        while (i<length-1&&j>0){
-            if(chars[i]==chars[j]){
-                i++;
-            }else{
-                res = 0;
+        String result = "";
+        int max = 0;
+        int len = s.length();
+        for (int i = 0; i < len; i++) {
+            for (int j = i+1; j <= len; j++) {
+                String test = s.substring(i, j);
+                if(palindrome(test)&&test.length()>max){
+                    result = s.substring(i, j);
+                    max = Math.max(max, result.length());
+                }
             }
-            j--;
         }
-
-        return null;
+        System.out.println(result);
+        return result;
+    }
+    private static boolean palindrome(String s){
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length/2; i++) {
+            if(chars[i]!=chars[chars.length-1-i]){
+                return false;
+            }
+        }
+        return true;
     }
     public static void main(String[] args) {
         String s ="babad";
