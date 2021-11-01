@@ -1,0 +1,9 @@
+
+x
+java:S14889"[Immediately return this expression instead of assigning it to the temporary variable "arr".(óÛÓü8øÔ¢Í/
+x
+java:S1488("[Immediately return this expression instead of assigning it to the temporary variable "arr".(âÕû´8ÕÒ¢Í/
+`
+java:S1155'">Use isEmpty() to check whether the collection is empty or not.(ˆøÑÒûÿÿÿÿ8ÁÈ¢Í/
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8±·†¢Í/

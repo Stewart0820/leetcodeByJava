@@ -1,0 +1,13 @@
+
+N
+java:S1481",Remove this unused "listOne" local variable.(Å†¨üÿÿÿÿ8öı¾£Í/
+N
+java:S1481",Remove this unused "flagTwo" local variable.(Àµîøÿÿÿÿ8’û¸£Í/
+I
+java:S1481",Remove this unused "flagOne" local variable.(ßˆ¥ì8ŠË¸£Í/
+D
+java:S1481"(Remove this unused "one" local variable.(çß¡X8Ü™¼£Í/
+E
+java:S1125"(Remove the literal "true" boolean value.(¸£å¶8éİ¶£Í/
+I
+java:S2201!",The return value of "parseInt" must be used.(‚ÀÅƒ8ïŞä§Í/
