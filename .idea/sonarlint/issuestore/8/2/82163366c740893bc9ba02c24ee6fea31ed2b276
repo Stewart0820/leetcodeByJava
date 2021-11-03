@@ -1,7 +1,2 @@
 
-Y
-java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8Ñ«Í/
-V
-java:S2864"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8Ñ«Í/
-V
-java:S2864)"4Iterate over the "entrySet" instead of the "keySet".(½Ö²’ûÿÿÿÿ8Ñ«Í/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ğı™ÿÿÿÿÿ8èËİÍ/
