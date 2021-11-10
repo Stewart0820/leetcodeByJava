@@ -3,24 +3,44 @@ package com.stewart.algorithms.leetbook.hot100.ten;
 /**
  * @author Stewart
  * @create 2021/11/2
- * Z 字形变换
+ *  正则表达式匹配
  */
-public class Solution06 {
-    public static String convert(String s, int numRows) {
-        return "";
+class Solution06 {
+    public static boolean isMatch(String s, String p) {
+        int m = s.length();
+        int n = p.length();
+
+        boolean[][] f = new boolean[m + 1][n + 1];
+        f[0][0] = true;
+        for (int i = 0; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                if (p.charAt(j - 1) == '*') {
+                    f[i][j] = f[i][j - 2];
+                    if (matches(s, p, i, j - 1)) {
+                        f[i][j] = f[i][j] || f[i - 1][j];
+                    }
+                } else {
+                    if (matches(s, p, i, j)) {
+                        f[i][j] = f[i - 1][j - 1];
+                    }
+                }
+            }
+        }
+        return f[m][n];
+    }
+
+    public static boolean matches(String s, String p, int i, int j) {
+        if (i == 0) {
+            return false;
+        }
+        if (p.charAt(j - 1) == '.') {
+            return true;
+        }
+        return s.charAt(i - 1) == p.charAt(j - 1);
     }
 
     public static void main(String[] args) {
-        String paypalishiring = Solution06.convert("PAYPALISHIRING", 3);
-        System.out.println(paypalishiring);
-        System.out.println(Integer.toBinaryString(6));
-        System.out.println(1>2?20:88);
-        for (int i = 1; i < 10; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print("*");
-            }
-            // 换行
-            System.out.println();
-        }
+        System.out.println(isMatch("aa", "a"));
     }
 }
+
